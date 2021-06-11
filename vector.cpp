@@ -88,8 +88,7 @@ class Vector
 	}
 
   private:
-	Vector
-	operation(Vector a, Vector b, int operation_type)
+	Vector operation(Vector a, Vector b, int operation_type)
 	{
 		int mag[3];
 		switch (operation_type)
