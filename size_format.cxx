@@ -26,12 +26,3 @@ string format(double size)
 	}
 	return (r + " " + a[i]);
 }
-int main(int argc, char *argv[])
-{
-	string b = "";
-	for (double i = 0; 4; i += 100000000000)
-	{
-		cout << format(i) << endl;
-		b += " ";
-	}
-}
